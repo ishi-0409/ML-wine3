@@ -14,7 +14,9 @@ python(3.12.9),pandas,scikit-learn,matplotlib.pyplot,seaborn
 説明変数のカラム別に箱ひげ図を出力する  
 〇で表示された値が外れ値であるからこれを除去する  
 
+下記の図は説明変数のカラムの一つであるpHについての箱ひげ図である  
 
+![箱ひげ図の例](pH.png)
 
 # モデルの構築
 交差検証法を用いるためのライブラリ(KFold,cross_val_score)をインポートする  
